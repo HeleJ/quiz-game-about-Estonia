@@ -6,7 +6,8 @@ body {
 }
 
 .start_btn,
-.info_box {
+.info_box,
+.quiz_box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,10 +27,13 @@ body {
     cursor: pointer;
 }
 .info_box {
-    display: none;
     width: 540px;
     background: #fff;
     border-radius: 5px;
+    transform: translate(-50%, -50%) scale (0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0,3s ease;
 }
 .info_box .info_title {
     height: 60px;
@@ -37,13 +41,14 @@ body {
     border-bottom: 1px solid lightgrey;
     display: flex;
     align-items: center;
-    padding: 0 35px;
+    padding: 0 30px;
+    border-radius: 5px 5px 0 0;
     font-size: 20px;
     font-weight: 600;
 }
 
 .info_box .info_list {
-    padding: 15px 35px;
+    padding: 15px 30px;
 }
 
 .info_box .info_list .info {
@@ -60,7 +65,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 35px;
+    padding: 0 30px;
     border-top: 1px solid lightgrey;
 }
 
@@ -68,12 +73,13 @@ body {
     margin: 0 5px;
     height: 40px;
     width: 100px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    color:#fff;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
 
@@ -92,4 +98,35 @@ body {
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+}
+
+.quiz_box {
+    width: 550px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.quiz_box header {
+    height: 70px;
+    padding: 0 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+}
+
+.quiz_box header .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quiz_box header .timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height:45px;
+    background: #cce5ff;
 }
