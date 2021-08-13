@@ -10,9 +10,19 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-//If Start Quiz Button Clicked
+//If Start Quiz Button clicked
+start_btn.onclick = ()=>{
+    info_box.classList.add("activeInfo");  //show the info box
+}
 // if Exit Quiz button clicked
+exit_btn.onclick = ()=>{
+    info_box.classList.remove("activeInfo");   //hide the info box
+}
 // if continueQuiz button clicked
+continue_btn.onclick = ()=>{
+    info_box.classList.remove("activeInfo");   //hide the info box
+    quiz_box.classList.add("activequiz");   //show the quiz box
+}
 // if restartQuiz button clicked
 // if quitQuiz button clicked
 // if Next Que button clicked
