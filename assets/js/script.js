@@ -28,6 +28,14 @@ let que_count = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
 
+//If Next Button Clicked
+next_btn.onclick = ()=>{
+    if(que_count > questions.length - 1){
+        que_count++;
+    showQuestions(que_count);  
+    }
+}
+
 // getting questions and options from array
 function showQuestions(index){
     const que_text = document.querySelector(".que_text");
