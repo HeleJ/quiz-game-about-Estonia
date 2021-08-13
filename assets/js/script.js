@@ -58,18 +58,30 @@ function showQuestions(index){
         option[i].setAttribute("onclick","optionSelected(this)");
     }
 }
+
+let tickIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
+let crossIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 // if user clicked on option
 function optionSelected(answer){
     let userAns = answer.textContent;
     let correctAns = questions[que_count].answer;
-    const allOptions = option_list.children.length;
-
+    let allOptions = option_list.children.length;
+    
     if(userAns == correctAns){
         answer.classList.add("correct");
         console.log("Correct Answer");
+        answer.insertAdjacentHTML("beforeend", tickIcon);
     }else{
         answer.classList.add("incorrect");
         console.log("Wrong Answer");
+        answer.insertAdjacentHTML("beforeend", crossIcon);
+
+        //if answer is incorrect then automatically selected the correct answer
+        for(let i = 0; i < allOptions; i++) {
+            if(option_list.children[i].textContent == correctAns) {
+                option_list.children[i].setAttribute("class", "option correct");
+            }
+        }
     }
 
     // once user selected disabled all options
