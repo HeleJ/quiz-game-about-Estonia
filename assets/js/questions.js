@@ -13,21 +13,21 @@ let questions = [
     },
     {
         numb: 2,
-        question:"",
-        answer:"",
+        question:"What does sport invented in Estonia called 'kiiking' involved? ",
+        answer:"Participants attach themselves to giant steel swings that rotate a full 360 degrees",
         options:[
             "",
             "",
             "",
-            ""
+            "Participants attach themselves to giant steel swings that rotate a full 360 degrees"
         ]
     },
     {
         numb: 3,
-        question:"",
-        answer:"",
+        question:"How many islands and islets Estonia has in the Baltic sea?",
+        answer:"Over 2000",
         options:[
-            "",
+            "Over 2000",
             "",
             "",
             ""
@@ -35,21 +35,21 @@ let questions = [
     },
     {
         numb: 4,
-        question:"",
-        answer:"",
+        question:"What was invented in Estonia?",
+        answer:"Skype, the online video call service",
         options:[
-            "",
-            "",
-            "",
-            ""
+            "Musical instrument Saxophone",
+            "First antibiotic substance, Penicillin",
+            "Steam Engine",
+            "Skype, the online video call service"
         ]
     },
     {
         numb: 5,
-        question:"",
-        answer:"",
+        question:"What offers e-Residency in Estonia?",
+        answer:"Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
         options:[
-            "",
+            "Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
             "",
             "",
             ""
