@@ -18,19 +18,19 @@ start_btn.onclick = ()=>{
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo");   //hide the info box
 }
-// if continueQuiz button clicked
+// if continue Quiz button clicked
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo");   //hide the info box
-    quiz_box.classList.add("activequiz");   //show the quiz box
-    showQuestions(0);
-    queCounter(1);
+    quiz_box.classList.add("activeQuiz");   //show the quiz box
+    showQuestions(0);   //calling showQuestions function
+    queCounter(1);   //passing 1 parameter to queCounter
 }
 let que_count = 0;
 let que_numb = 1;
 
 const next_btn = quiz_box.querySelector(".next_btn");
 
-//If Next Button Clicked
+//If Next Que Button Clicked
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){
         que_count++;
@@ -45,34 +45,35 @@ next_btn.onclick = ()=>{
 // getting questions and options from array
 function showQuestions(index){
     const que_text = document.querySelector(".que_text");
-    const option_list = document.querySelector(".option_list");
-    let que_tag = '<span>'+ questions[index].numb + ".".question +'</span>';
-    let option_list = '<div class="option">'+ questions[index].options[0] +'<span></span></div>'
-                      + '<div class="option">'+ questions[index].options[1] +'<span></span></div>'
-                      + '<div class="option">'+ questions[index].options[2] +'<span></span></div>'
-                      + '<div class="option">'+ questions[index].options[3] +'<span></span></div>';
+    let que_tag = '<span>'+ questions[index].numb + "." + questions[index].question +'</span>';
+    let option_tag = '<div class="option"><span>' + questions[index].options[0] +'</span></div>'
+                      + '<div class="option"><span>' + questions[index].options[1] +'</span></div>'
+                      + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
+                      + '<div class="option"><span>' + questions[index].options[3] +'</span></div>';
     que_text.innerHTML = que_tag;
     option_list.innerHTML = option_tag;
+
     const option = option_list.querySelectorAll(".option");
-    for (let i = 0; i < option_list.length; i++) {
+    for (i = 0; i < option.length; i++) {
         option[i].setAttribute("onclick","optionSelected(this)");
     }
 }
-
+// if user clicked on option
 function optionSelected(answer){
     let userAns = answer.textContent;
     let correctAns = questions[que_count].answer;
-    let allOptions = option_list.children.length;
+    const allOptions = option_list.children.length;
+
     if(userAns == correctAns){
         answer.classList.add("correct");
-        console.log("Answer is Correct");
+        console.log("Correct Answer");
     }else{
         answer.classList.add("incorrect");
-        console.log("Answer is Wrong");
+        console.log("Wrong Answer");
     }
 
     // once user selected disabled all options
-    for (let i = 0; i < allOptions; i++) {
+    for (i = 0; i < allOptions; i++) {
         option_list.children[i].classList.add("disabled");
     }
     
@@ -80,7 +81,7 @@ function optionSelected(answer){
 
 function queCounter(index){
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
-    let totalQuesCountTag = '<span><p>'+ index + '</p>of<p>' + questions.length +'</p></span>';
+    let totalQuesCountTag = '<span><p>'+ index + '</p> of <p>' + questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQuesCountTag;
 }
 // if restartQuiz button clicked

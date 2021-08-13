@@ -2,9 +2,9 @@
 let questions = [
     {
         numb: 1,
-        question:"Where is Estonia located?",
-        answer:"Northen Europe",
-        options:[
+        question: "Where is Estonia located?",
+        answer: "Northen Europe",
+        options: [
             "Asia",
             "Northen Europe",
             "America",
@@ -13,9 +13,9 @@ let questions = [
     },
     {
         numb: 2,
-        question:"What does sport invented in Estonia called 'kiiking' involved? ",
-        answer:"Participants attach themselves to giant steel swings that rotate a full 360 degrees",
-        options:[
+        question: "What does sport invented in Estonia called 'kiiking' involved? ",
+        answer: "Participants attach themselves to giant steel swings that rotate a full 360 degrees",
+        options: [
             "",
             "",
             "",
@@ -24,20 +24,20 @@ let questions = [
     },
     {
         numb: 3,
-        question:"How many islands and islets Estonia has in the Baltic sea?",
-        answer:"Over 2000",
+        question: "How many islands and islets Estonia has in the Baltic sea?",
+        answer: "Over 2000",
         options:[
             "Over 2000",
-            "",
-            "",
-            ""
+            "None",
+            "Five",
+            "Hundred"
         ]
     },
     {
         numb: 4,
-        question:"What was invented in Estonia?",
-        answer:"Skype, the online video call service",
-        options:[
+        question: "What was invented in Estonia?",
+        answer: "Skype, the online video call service",
+        options: [
             "Musical instrument Saxophone",
             "First antibiotic substance, Penicillin",
             "Steam Engine",
@@ -46,9 +46,9 @@ let questions = [
     },
     {
         numb: 5,
-        question:"What offers e-Residency in Estonia?",
-        answer:"Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
-        options:[
+        question: "What offers e-Residency in Estonia?",
+        answer: "Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
+        options: [
             "Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
             "",
             "",
@@ -56,4 +56,4 @@ let questions = [
         ]
     },
 
-]
+];
