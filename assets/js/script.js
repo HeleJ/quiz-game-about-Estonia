@@ -31,6 +31,7 @@ let que_count = 0;
 let que_numb = 1;
 let counter;
 let timeValue = 20;
+let counterLine;
 let widthValue = 0;
 let userScore = 0;
 
@@ -74,8 +75,8 @@ function showQuestions(index){
     }
 }
 
-let tickIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
-let crossIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
+let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 // if user clicked on option
 function optionSelected(answer){
     clearInterval(counter);
@@ -89,17 +90,17 @@ function optionSelected(answer){
         console.log("userScore");
         answer.classList.add("correct");
         console.log("Correct Answer");
-        answer.insertAdjacentHTML("beforeend", tickIcon);
+        answer.insertAdjacentHTML("beforeend", tickIconTag);
     }else{
         answer.classList.add("incorrect");
         console.log("Wrong Answer");
-        answer.insertAdjacentHTML("beforeend", crossIcon);
+        answer.insertAdjacentHTML("beforeend", crossIconTag);
 
         //if answer is incorrect then automatically selected the correct answer
         for(let i = 0; i < allOptions; i++) {
             if(option_list.children[i].textContent == correctAns) {
                 option_list.children[i].setAttribute("class", "option correct");
-                option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
+                option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag);
             }
         }
     }
@@ -158,10 +159,9 @@ function startTimerLine(time){
 
 function queCounter(index){
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
-    let totalQuesCountTag = '<span><p>'+ index + '</p> of <p>' + questions.length +'</p> Questions</span>';
-    bottom_ques_counter.innerHTML = totalQuesCountTag;
+    let totalQueCountTag = '<span><p>'+ index + '</p> of <p>' + questions.length +'</p> Questions</span>';
+    bottom_ques_counter.innerHTML = totalQueCountTag;
 }
 // if restartQuiz button clicked
 // if quitQuiz button clicked
-// if Next Que button clicked
 //if user clicked on option   

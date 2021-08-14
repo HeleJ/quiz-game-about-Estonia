@@ -3,34 +3,34 @@ let questions = [
     {
         numb: 1,
         question: "Where is Estonia located?",
-        answer: "Northen Europe",
+        answer: "Northern Europe",
         options: [
             "Asia",
-            "Northen Europe",
-            "America",
+            "Northern Europe",
+            "The Balkan peninsula",
             "Africa"
         ]
     },
     {
         numb: 2,
-        question: "What does sport invented in Estonia called 'kiiking' involved? ",
+        question: "What does the Estonian sport called 'kiiking' involved?",
         answer: "Participants attach themselves to giant steel swings that rotate a full 360 degrees",
         options: [
             "Triathlone with sauna breaks",
             "Knitting and crosheing while jogging",
-            "",
+            "Car racing on an iced over sea",
             "Participants attach themselves to giant steel swings that rotate a full 360 degrees"
         ]
     },
     {
         numb: 3,
-        question: "How many islands and islets Estonia has in the Baltic sea?",
+        question: "How many islands and islets does Estonia have in the Baltic sea?",
         answer: "Over 2000",
         options:[
             "Over 2000",
             "None",
             "Five",
-            "Hundred"
+            "one hundred"
         ]
     },
     {
@@ -39,20 +39,20 @@ let questions = [
         answer: "Skype, the online video call service",
         options: [
             "Musical instrument Saxophone",
-            "First antibiotic substance, Penicillin",
-            "Steam Engine",
+            "The first antibiotic substance, Penicillin",
+            "The steam Engine",
             "Skype, the online video call service"
         ]
     },
     {
         numb: 5,
-        question: "What offers e-Residency in Estonia?",
-        answer: "Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
+        question: "What can you do with e-Residency in Estonia?",
+        answer: "It allows entrepeneurs from all over the world to start an EU-based company and manage their business entirely online",
         options: [
-            "Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
-            "Allows free travel ticket for non estonian residence",
-            "Allows to get all items starting with letter E free",
-            "Allows to have Sauna entirely online "
+            "It allows entrepeneurs from all over the world to start an EU-based company and manage their business entirely online",
+            "It allows free travel ticket for non estonian residence",
+            "It allows you to get all items starting with letter E for free",
+            "It allows you to use saunas entirely online"
         ]
     },
 
