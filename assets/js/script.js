@@ -1,4 +1,4 @@
-//getting all required elements
+//selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
@@ -137,7 +137,7 @@ function optionSelected(answer){
     
 }
 function showResultBox(){
-    info_box.classList.remove("activInfo");  //hide the info box
+    info_box.classList.remove("activeInfo");  //hide the info box
     quiz_box.classList.remove("activeQuiz");  //hide the quiz box
     result_box.classList.add("activeResult");  //show the result box
     const scoreText = result_box.querySelector(".score_text");
