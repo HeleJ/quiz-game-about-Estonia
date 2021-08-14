@@ -32,8 +32,12 @@ let que_numb = 1;
 let counter;
 let timeValue = 20;
 let widthValue = 0;
+let userScore = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
+const result_box = document.querySelector(".result_box");
+const restart_quiz = result_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");
 
 //If Next Question Button Clicked
 next_btn.onclick = ()=>{
@@ -46,10 +50,10 @@ next_btn.onclick = ()=>{
         startTimer(timeValue);
         clearInterval(counterLine);
         startTimerLine(widthValue);
-        
-        
+        next_btn.style.display = "none";
     }else{
         console.log("Questions completed");
+        showResultBox();
     }
 }
 
@@ -81,6 +85,8 @@ function optionSelected(answer){
     let allOptions = option_list.children.length;
     
     if(userAns == correctAns){
+        userScore += 1;
+        console.log("userScore");
         answer.classList.add("correct");
         console.log("Correct Answer");
         answer.insertAdjacentHTML("beforeend", tickIcon);
@@ -102,8 +108,28 @@ function optionSelected(answer){
     for (i = 0; i < allOptions; i++) {
         option_list.children[i].classList.add("disabled");
     }
+    next_btn.style.display = "block";
     
 }
+function showResultBox(){
+    info_box.classList.remove("activInfo");  //hide the info box
+    quiz_box.classList.remove("activeQuiz");  //hide the quiz box
+    result_box.classList.add("activeResult");  //show the result box
+    const scoreText = result_box.querySelector(".score_text");
+    if (userScore > 3){
+        let scoreTag = '<span>and congrats! You got <p>'+ userScore +'</p> out of <p>' + questions.length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }
+    else if (userScore > 1){
+        let scoreTag = '<span>and nice, You got <p>'+ userScore +'</p> out of <p>' + questions.length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }
+    else{
+        let scoreTag = '<span>and sorry, You got only <p>'+ userScore +'</p> out of <p>' + questions.length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }
+}
+
 function startTimer(time){
     counter = setInterval(timer, 1000);
     function timer(){

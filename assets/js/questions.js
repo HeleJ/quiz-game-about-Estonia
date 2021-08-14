@@ -16,8 +16,8 @@ let questions = [
         question: "What does sport invented in Estonia called 'kiiking' involved? ",
         answer: "Participants attach themselves to giant steel swings that rotate a full 360 degrees",
         options: [
-            "",
-            "",
+            "Triathlone with sauna breaks",
+            "Knitting and crosheing while jogging",
             "",
             "Participants attach themselves to giant steel swings that rotate a full 360 degrees"
         ]
@@ -50,9 +50,9 @@ let questions = [
         answer: "Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
         options: [
             "Allows entrepeneurs from all over the world start an EU-based company and manage business entirely online",
-            "",
-            "",
-            ""
+            "Allows free travel ticket for non estonian residence",
+            "Allows to get all items starting with letter E free",
+            "Allows to have Sauna entirely online "
         ]
     },
 
