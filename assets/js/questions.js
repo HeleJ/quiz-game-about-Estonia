@@ -17,7 +17,7 @@ let questions = [
         answer: "Participants attach themselves to giant steel swings that rotate a full 360 degrees",
         options: [
             "Triathlone with sauna breaks",
-            "Knitting and crosheing while jogging",
+            "Knitting and crocheting while jogging",
             "Car racing on an iced over sea",
             "Participants attach themselves to giant steel swings that rotate a full 360 degrees"
         ]
