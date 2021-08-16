@@ -124,7 +124,7 @@ function optionSelected(answer){
             if(option_list.children[i].textContent == correctAns) {
                 option_list.children[i].setAttribute("class", "option correct");
                 option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag);
-                console.loglog("Auto selected correct answer.");
+                console.log("Auto selected correct answer.");
             }
         }
     }
@@ -135,22 +135,22 @@ function optionSelected(answer){
     }
     next_btn.classList.add("show");
     
-}
+} 
 function showResult(){
     info_box.classList.remove("activeInfo");  //hide the info box
     quiz_box.classList.remove("activeQuiz");  //hide the quiz box
     result_box.classList.add("activeResult");  //show the result box
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){
-        let scoreTag = '<span>and congrats! You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<p>and congrats! You got<span>'+ userScore +'</span>out of<span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){
-        let scoreTag = '<span>and nice, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<p>and nice, You got<span>'+ userScore +'</span> out of<span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
     else{
-        let scoreTag = '<span>and sorry, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag ='<p>and sorry, You got only <span>'+ userScore +'</span>out of<span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
 }
