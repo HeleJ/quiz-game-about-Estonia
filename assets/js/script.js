@@ -142,7 +142,7 @@ function showResult(){
     result_box.classList.add("activeResult");  //show the result box
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){
-        let scoreTag = '<span>and congrats! You got <p>'+ userScore +'</p> out of <p>' + questions.length +'</p></span>';
+        let scoreTag = '<span>and congrats! You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){
@@ -200,6 +200,3 @@ function queCounter(index){
     let totalQueCountTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCountTag;
 }
-// if restartQuiz button clicked
-// if quitQuiz button clicked
-//if user clicked on option   
