@@ -8,7 +8,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background: #007bff;
+    background: url('../images/lipuv2rvid.jpg') no-repeat;
+    background-size: cover;
+    
 }
 
 ::selection{
