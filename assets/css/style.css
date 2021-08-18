@@ -128,7 +128,7 @@ body {
 }
 
 .quiz_box{
-    max-width: 80vw;
+    width: 550px;
     background: #fff;
     border-radius: 5px;
     opacity: 0;
@@ -345,6 +345,7 @@ footer .button:hover{
     margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
+    color:#004085;
 }
 .result_box .score-text span p{
     font-weight: 600;
@@ -352,7 +353,7 @@ footer .button:hover{
 }
 .result_box .buttons{
     display: flex;
-    margin: 20px 0;
+    margin: 20px;
 }
 .result_box .buttons button{
     margin: 0 10px;
@@ -372,17 +373,13 @@ footer .button:hover{
 
 /* For larger to medium screens size from 1200px wide and down */
 
-@media screen and (max-width: 1200px){
-
-}
+@media screen and (max-width: 1200px){}
 /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-
-}
+@media screen and (max-width: 950px){}
 /* for small screen sizes 800px and down */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 760px){
     .quiz_box {
+        width: 350px;
     }
-
-}
+};
