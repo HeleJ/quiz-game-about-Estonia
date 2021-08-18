@@ -10,6 +10,7 @@
 body {
     background: url('../images/lipuv2rvid.jpg') no-repeat;
     background-size: cover;
+    height: 1200px;
     
 }
 
@@ -363,4 +364,20 @@ footer .button:hover{
     border: 1px solid #007bff;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px){
+
+}
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+}
+/* for small screen sizes 800px and down */
+
+@media screen and (max-width: 800px){
+    
 }
