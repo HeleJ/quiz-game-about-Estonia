@@ -10,7 +10,9 @@
 body {
     background: url('../images/lipuv2rvid.jpg') no-repeat;
     background-size: cover;
-    height: 1200px;
+    height: 100vh;
+    width: 100vw;
+    overflow:hidden;
     
 }
 
@@ -52,7 +54,7 @@ body {
     cursor: pointer;
 }
 .info_box{
-    width: 540px;
+    width: 50vw;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -126,7 +128,7 @@ body {
 }
 
 .quiz_box{
-    width: 550px;
+    width: 60vw;
     background: #fff;
     border-radius: 5px;
     opacity: 0;
@@ -318,7 +320,7 @@ footer .button:hover{
 /* result box*/
 .result_box {
     background: #fff;
-    width: 450px;
+    width: 40vw;
     padding: 25px 30px;
     border-radius: 5px;
     display: flex;
@@ -364,6 +366,7 @@ footer .button:hover{
     border: 1px solid #007bff;
     cursor: pointer;
     transition: all 0.3s ease;
+    overflow: hidden;
 }
 /* Media queries */
 
@@ -379,5 +382,7 @@ footer .button:hover{
 /* for small screen sizes 800px and down */
 
 @media screen and (max-width: 800px){
-    
+    .quiz_box {
+    }
+
 }

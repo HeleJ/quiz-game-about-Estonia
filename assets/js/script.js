@@ -13,11 +13,11 @@ const timeCount = document.querySelector(".timer .timer_sec");
 //If StartQuiz Button clicked
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); //show the info box
-}
+};
 // if ExitQuiz button clicked
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide the info box
-}
+};
 // if continueQuiz button clicked
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide the info box
@@ -26,7 +26,7 @@ continue_btn.onclick = ()=>{
     queCounter(1); //passing 1 parameter to queCounter
     startTimer(20); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
-}
+};
 let timeValue = 20;
 let que_count = 0;
 let que_numb = 1;
@@ -54,11 +54,11 @@ restart_quiz.onclick = ()=>{
     startTimerLine(widthValue);
     timeText.textContent = "Time Left";
     next_btn.classList.remove("show");
-}
+};
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
     window.location.reload();
-}
+};
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
@@ -80,7 +80,7 @@ next_btn.onclick = ()=>{
         clearInterval(counterLine);
         showResult();
     }
-}
+};
 // getting questions and options from array
 function showQuestions(index){
     const que_text = document.querySelector(".que_text");
@@ -111,7 +111,7 @@ function optionSelected(answer){
     if(userAns == correctAns){
         userScore += 1;
         answer.classList.add("correct");
-        answer.insertAdjacentHTML("beforeend", tickIconTag)
+        answer.insertAdjacentHTML("beforeend", tickIconTag);
         console.log("Correct Answer");
         console.log("Your correct answer = " +userScore);
     }else{
