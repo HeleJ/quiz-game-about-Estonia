@@ -1,4 +1,4 @@
-# QUIZ  GAME  ABOUT  ESTONIA
+# QUIZ  GAME  about  ESTONIA
 
 ## Welcome to my very first game!
 
@@ -21,7 +21,61 @@ This project was written in HTML, CSS & JavaScript using GitHub.
 4. Future Features
 5. Testing
 6. Deployment
-7. 
+7. Credits
+
+##  Introduction
+
+### Colour scheme
+
+## Features
+
+![start-quiz](documentation/startQuiz.png)
+
+*Start page consists background image and Start button
+
+![info-box](documentation/infobox-image.png)
+
+*Info box page consists Title, List of rules, and two buttons "Exit Quiz" and "Continue"
+
+![quiz-box-header](documentation/quiz-box-header.png)
+* Quiz boxs page header consists Title, Timer (text and numbers), and time-line.
+
+![quiz-box](documentation/quiz-box-rightAns-image.png)
+
+* Quiz box page middle part consists question and selection of answers
+* By selecting right wrong:
+* By selecting wrong answer:
+
+![quiz-box](documentation/quiz-box-wrongAns-image.png)
+
+![quiz-box](documentation/quiz-box-footer-image.png)
+
+![result-box](documentation/result-box.png)
+
+* Result box consists icon - a trophy, text in the middle, and buttons for replay or quit options 
+
+
+
+
+## Future Features
+
+# Testing
+1. Manual testing
+
+* Checking responsiveness
+
+I confirmed that this project is responsive, looks good on functions on all standard screen sizes using the devtools device toolbar.
+
+* Browser Validation
+
+I tested that this page works in different browsers: Chrome and Internet Explorer
+
+2. Automated testing
+* Code validation
+* Lighthouse auditing
+
+![accessibility](documentation/accessibility.png)
+
 
 ## Validator 
 
