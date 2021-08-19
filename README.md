@@ -108,6 +108,10 @@ The live link can be found here - [Quiz about Estonia](https://helej.github.io/q
 * I part:["Create a Quiz App with Timer using HTML CSS & JavaScript"](https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s) 
 * II part from [here](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=5s)
 
+The first video instructing how to build up contennt using HTML and CSS, and the  video was JavaScript tutorial. Codes from both videos have been edited to fit the needs of the Quiz about Estonia website. I wish I could have written all of the JavaScript code independently, however I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code as and when I needed to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
+
+ Questions and answers in the web-quiz were found and worded by myself
+
 * Material for question 2 [Kiiking](https://kiikest.ee/eng/kiiking/)
 
 * Material for question 3 [Skype](https://content.dsp.co.uk/history-of-skype)
@@ -117,4 +121,4 @@ The live link can be found here - [Quiz about Estonia](https://helej.github.io/q
 
 ## Media
 
-* The background image at start game page was taken from [here](https://pildiait.erm.ee/lipuvarvid-varahommikul/)
+* The background image used throughout the website, and used for different screen sizes  was taken from [here](https://pildiait.erm.ee/lipuvarvid-varahommikul/)
