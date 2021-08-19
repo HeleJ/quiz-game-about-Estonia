@@ -98,3 +98,23 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * Once the master has been selected, the page provided the link to the completed website.
 
 The live link can be found here - [Quiz about Estonia](https://helej.github.io/quiz-game-about-Estonia)
+
+
+# Credits
+
+## Content
+
+* The code to make my second project was taken from Youtube 
+* I part:["Create a Quiz App with Timer using HTML CSS & JavaScript"](https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s) 
+* II part from [here](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=5s)
+
+* Material for question 2 [Kiiking](https://kiikest.ee/eng/kiiking/)
+
+* Material for question 3 [Skype](https://content.dsp.co.uk/history-of-skype)
+
+* Material for question 5 [E-residency](https://e-resident.gov.ee/)
+
+
+## Media
+
+* The background image at start game page was taken from [here](https://pildiait.erm.ee/lipuvarvid-varahommikul/)
