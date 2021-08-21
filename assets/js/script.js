@@ -186,19 +186,15 @@ function startTimer(time){
     }
 }
 function startTimerLine(time){
-    counterLine = setInterval(timer, 29);
+    counterLine = setInterval(timer, 200);
     function timer(){
         time += 1;
-        time_line.style.width = time + "px";
-        if(time > 549){
-            clearInterval(counterLine);
-        }else if(time > 449){
-            clearInterval(counterLine);
-        }else if(time > 349){
+        time_line.style.width = time + `%`;
+        if(time > 99){
             clearInterval(counterLine);
         }
     }
-};
+}
 
 function queCounter(index){
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
