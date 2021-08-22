@@ -2,14 +2,14 @@
 
 ## Welcome to my very first game!
 
-This website was built as part of the learning material for Code Institute's Fullstack Web Developer program (5P) Portfolio Project Two. It will be a quiz website aimed at the people who would be interested about Estonia or people, who never even heard about Estonia and interested about short game.
+This website was built as part of the learning material for Code Institute's Fullstack Web Developer program (5P) Portfolio Project Two. It will be a quiz website aimed at the people who would be interested in Estonia or people, who never even heard about Estonia and are interested in a short game.
 
 You can check out the website [here!](https://helej.github.io/quiz-game-about-Estonia)
 
 ![my-page](documentation/my-page-image.png)
 
 ## Project Description
-This site was created in order to get familiar with common development tools like Gitpod, Git & GitHub, and how to use them to write and manage code.The website content will be created with HTML, the website will be styled with the use of CSS, and it's functionality will come from the implementation of JavaScript.The project itself will display a breakdown of the different technologies used in each of the different sections of the program.
+This site was created  to get more familiar with common development tools like Gitpod, Git & GitHub, and how to use them to write and manage code. The website content will be created with HTML, the website will be styled with the use of CSS, and its functionality will come from the implementation of JavaScript.The project itself will display a breakdown of the different technologies used in each of the different sections of the program.
 
 ## Technology
 This project was written in HTML, CSS & JavaScript using GitHub.
@@ -31,11 +31,11 @@ This project was written in HTML, CSS & JavaScript using GitHub.
 
 ![start-quiz](documentation/startQuiz.png)
 
-*Start page consists background image and Start button
+*Start page consists of a background image and Start button
 
 ![info-box](documentation/infobox-image.png)
 
-*Info box page consists Title, List of rules, and two buttons "Exit Quiz" and "Continue"
+*Infobox page consists of Title, List of rules, and two buttons "Exit Quiz" and "Continue"
 
 ![quiz-box-header](documentation/quiz-box-header.png)
 * Quiz boxs page header consists Title, Timer (text and numbers), and time-line.
@@ -43,8 +43,8 @@ This project was written in HTML, CSS & JavaScript using GitHub.
 ![quiz-box](documentation/quiz-box-rightAns-image.png)
 
 * Quiz box page middle part consists question and selection of answers
-* By selecting right wrong:
-* By selecting wrong answer:
+* By selecting the right answer:
+* By selecting the wrong answer:
 
 ![quiz-box](documentation/quiz-box-wrongAns-image.png)
 
@@ -52,7 +52,7 @@ This project was written in HTML, CSS & JavaScript using GitHub.
 
 ![result-box](documentation/result-box.png)
 
-* Result box consists icon - a trophy, text in the middle, and buttons for replay or quit options 
+* Result box consists of icon - a trophy, text in the middle, and buttons for replay or quit options 
 
 
 ## Future Features
@@ -108,9 +108,9 @@ The live link can be found here - [Quiz about Estonia](https://helej.github.io/q
 * I part:["Create a Quiz App with Timer using HTML CSS & JavaScript"](https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s) 
 * II part from [here](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=5s)
 
-The first video instructing how to build up contennt using HTML and CSS, and the  video was JavaScript tutorial. Codes from both videos have been edited to fit the needs of the Quiz about Estonia website. I wish I could have written all of the JavaScript code independently, however I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code as and when I needed to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
+The first video instructing how to build up content using HTML and CSS, and the video was a JavaScript tutorial. Codes from both videos have been edited to fit the needs of the Quiz about the Estonia website. I wish I could have written all of the JavaScript code independently, however, I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code as and when I needed to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
 
-### Questions and answers in the web-quiz were found and worded by myself
+### Questions and answers in the web quiz were found and worded by myself
 
 * Material for question 2 [Kiiking](https://kiikest.ee/eng/kiiking/)
 
