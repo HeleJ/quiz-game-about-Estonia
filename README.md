@@ -40,9 +40,16 @@ For my second project, I thought I will be an ambassador. I created a short quiz
 
 * My color scheme is inspired by the Estonian flag: Blue ![#007bff](https://via.placeholder.com/15/007bff/000000?text=+), black ![#252525](https://via.placeholder.com/15/252525/000000git?text=+) and white ![#fff](https://via.placeholder.com/15/fff/000000?text=+).
 
-To create colour palette I used [Coolors]()
+To create colour palette I used [Coolors](https://coolors.co)
 
-Quiz box option list color scheme:
+Blue colour palette:
+![blues](documentation/colorpalet.png)
+
+ Quiz box option list  with right answer colours:
+ ![rightAns](documentation/option-with-rightAns.png)
+
+ Quiz box option list with wrong answer colours:
+ ![wrong](documentation/option-with-wrongAns.png)
  
 ## Features
 
