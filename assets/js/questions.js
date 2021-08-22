@@ -13,12 +13,12 @@ let questions = [
     },
     {
         numb: 2,
-        question: "What does the Estonian sport called 'kiiking' involved?",
+        question: "What is the Estonian sport called 'kiiking' involved?",
         answer: "Participants attach themselves to giant steel swings that rotate a full 360 degrees",
         options: [
             "Triathlone with sauna breaks",
             "Knitting and crocheting while jogging",
-            "Car racing on an iced over sea",
+            "Car racing on an iced oversea",
             "Participants attach themselves to giant steel swings that rotate a full 360 degrees"
         ]
     },
@@ -40,17 +40,17 @@ let questions = [
         options: [
             "Musical instrument Saxophone",
             "The first antibiotic substance, Penicillin",
-            "The steam Engine",
+            "The Steam Engine",
             "Skype, the online video call service"
         ]
     },
     {
         numb: 5,
-        question: "What can you do with e-Residency in Estonia?",
-        answer: "It allows entrepeneurs from all over the world to start an EU-based company and manage their business entirely online",
+        question: "What can you do with an e-Residency in Estonia?",
+        answer: "It allows entrepreneurs from all over the world to start an EU-based company and manage their business entirely online",
         options: [
-            "It allows entrepeneurs from all over the world to start an EU-based company and manage their business entirely online",
-            "It allows free travel ticket for non estonian residence",
+            "It allows entrepreneurs from all over the world to start an EU-based company and manage their business entirely online",
+            "It allows free travel tickets for non-Estonian residence",
             "It allows you to get all items starting with letter E for free",
             "It allows you to use saunas entirely online"
         ]

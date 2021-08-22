@@ -38,23 +38,24 @@ let widthValue = 0;
 
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
+
 // if restartQuiz button clicked
 restart_quiz.onclick = ()=>{
-    quiz_box.classList.add("activeQuiz");
-    result_box.classList.remove("activeResult");
+    quiz_box.classList.add("activeQuiz"); //show quiz box
+    result_box.classList.remove("activeResult"); //hide the result box
     timeValue = 20;
     que_count = 0;
     que_numb = 1;
     userScore = 0;
     widthValue = 0;
-    showQuestions(que_count);
-    queCounter(que_numb);
-    clearInterval(counter);
-    clearInterval(counterLine);
-    startTimer(timeValue);
-    startTimerLine(widthValue);
-    timeText.textContent = "Time Left";
-    next_btn.classList.remove("show");
+    showQuestions(que_count); //calling showQestions function
+    queCounter(que_numb); //passing que_numb value to the queCounter
+    clearInterval(counter); //clear counter
+    clearInterval(counterLine); //clear counterLine
+    startTimer(timeValue);  //calling startTimer function
+    startTimerLine(widthValue);  //calling startTimeLine function
+    timeText.textContent = "Time Left";  
+    next_btn.classList.remove("show");  //hide the next button
 };
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
@@ -63,7 +64,7 @@ quit_quiz.onclick = ()=>{
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
-//If Next Question Button Clicked
+//If Click Next button clicked
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){
         que_count++;
@@ -98,9 +99,10 @@ function showQuestions(index){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
-
+// div tags for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+
 // if user clicked on option
 function optionSelected(answer){
     clearInterval(counter);
@@ -111,14 +113,14 @@ function optionSelected(answer){
     
     if(userAns == correctAns){
         userScore += 1;
-        answer.classList.add("correct");
-        answer.insertAdjacentHTML("beforeend", tickIconTag);
+        answer.classList.add("correct");  //adding green color to correct selected option
+        answer.insertAdjacentHTML("beforeend", tickIconTag); // adding tick icon
         console.log("Correct Answer");
         console.log("Your correct answer = " +userScore);
-    }else{
-        answer.classList.add("incorrect");
+    }else{  //answer is incorrect
+        answer.classList.add("incorrect");  //addng red color to incorrect selected option
         console.log("Wrong Answer");
-        answer.insertAdjacentHTML("beforeend", crossIconTag);
+        answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cress icon
 
         //if answer is incorrect then automatically selected the correct answer
         for(i=0; i < allOptions; i++) {
@@ -137,29 +139,32 @@ function optionSelected(answer){
     next_btn.classList.add("show");
     
 } 
+
+// function showResult
 function showResult(){
     info_box.classList.remove("activeInfo");  //hide the info box
     quiz_box.classList.remove("activeQuiz");  //hide the quiz box
     result_box.classList.add("activeResult");  //show the result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 3){
+    if (userScore > 3){  //if user scored more than 3 right answers
         let scoreTag = '<p>and congrats! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
-    else if(userScore > 1){
+    else if(userScore > 1){  //if user got more than 1 right answers
         let scoreTag = '<p>and nice, You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
-    else{
+    else{  // if user scored less than 1 right asnwer
         let scoreTag ='<p>and sorry, You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
 }
+// timer
 function startTimer(time){
     counter = setInterval(timer, 1000);
     function timer(){
         timeCount.textContent = time;
-        time--;
+        time --; //decrement the time value
         if(time <9){
             let addZero = timeCount.textContent;
             timeCount.textContent = "0" + addZero;
@@ -185,6 +190,7 @@ function startTimer(time){
         }
     }
 }
+// timerLine
 function startTimerLine(time){
     counterLine = setInterval(timer, 200);
     function timer(){
@@ -195,9 +201,9 @@ function startTimerLine(time){
         }
     }
 }
-
+// creating a new span tag and passing the question number and total question
 function queCounter(index){
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
     let totalQueCountTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
-    bottom_ques_counter.innerHTML = totalQueCountTag;
+    bottom_ques_counter.innerHTML = totalQueCountTag; //adding new span tag inside the bottom_ques_counter
 }

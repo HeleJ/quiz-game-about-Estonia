@@ -51,6 +51,7 @@ body {
     background: #fff;
     cursor: pointer;
 }
+/* info_box */
 .info_box{
     max-width: 80vw;
     background: #fff;
@@ -124,7 +125,7 @@ body {
     color: #fff;
     background: #007bff;
 }
-
+/* quiz_box */
 .quiz_box{
     width: 550px;
     background: #fff;
@@ -272,8 +273,6 @@ section .option_list .option:hover{
 }
 
 /* quiz-box footer*/
-
-
 .quiz_box footer{
     height: 60px;
     padding: 0 30px;
