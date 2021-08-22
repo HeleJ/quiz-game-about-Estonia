@@ -25,13 +25,27 @@ This project was written in HTML, CSS & JavaScript using GitHub.
 
 ##  Introduction
 
+As an Estonian living abroad already for many years, I'm used to seeing confused faces when I'm telling I'm Estonian.  Most people don't have the slightest clue where Estonia can even be? Is that a small country even in Europe? 
+For my second project, I thought I will be an ambassador. I created a short quiz game about a small country, far far away. Country what is bigger than Denmark or Switzerland but population only 1,3 million and decreasing.
+
+* After entering a game and reading rules you can start a game.
+
+* There is a total of 5 five questions and 4 four options answers. After you selected an option, if this option is correct then there appears a green tick icon, and if wrong then you see a red cross. By selecting the wrong answer, you will be shown the right answer. 
+
+* In the end, is a result box with a score and replay & quit button.
+
+* The quiz is created to inspire, and add curiosity about Estonia.
+
 ### Colour scheme
 
+* 
 ## Features
 
 ![start-quiz](documentation/startQuiz.png)
 
 *Start page consists of a background image and Start button
+
+*The background image is inspired by the Estonian flag. A picture says more than a thousand words. 
 
 ![info-box](documentation/infobox-image.png)
 
