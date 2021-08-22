@@ -55,5 +55,4 @@ let questions = [
             "It allows you to use saunas entirely online"
         ]
     },
-
 ];

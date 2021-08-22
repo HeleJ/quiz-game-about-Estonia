@@ -38,36 +38,68 @@ For my second project, I thought I will be an ambassador. I created a short quiz
 
 ### Colour scheme
 
-* 
+* My color scheme is inspired by the Estonian flag: Blue ![#007bff](https://via.placeholder.com/15/007bff/000000?text=+), black ![#252525](https://via.placeholder.com/15/252525/000000git?text=+) and white ![#fff](https://via.placeholder.com/15/fff/000000?text=+).
+
+To create colour palette I used [Coolors]()
+
+Quiz box option list color scheme:
+ 
 ## Features
+
+* In this quiz game, there are three layers or boxes. Those boxes are shown one by one on a particular button clicked.
 
 ![start-quiz](documentation/startQuiz.png)
 
-*Start page consists of a background image and Start button
+* Start page consists of a background image and button labeled "Start Quiz".
 
-*The background image is inspired by the Estonian flag. A picture says more than a thousand words. 
+* The background image is inspired by the Estonian flag. ( A picture says more than a thousand words.) 
+
+* After selecting "Start Quiz" button, the info box appears with popup animation.
 
 ![info-box](documentation/infobox-image.png)
 
-*Infobox page consists of Title, List of rules, and two buttons "Exit Quiz" and "Continue"
+* Infobox page consists of Title, List of rules, and two buttons "Exit Quiz" and "Continue".
+
+* When you clicked on the " Exit Quiz" button, the Info box will be hidden.
+
+* When you clicked on the "Continue" button, then the Quiz box appears
 
 ![quiz-box-header](documentation/quiz-box-header.png)
-* Quiz boxs page header consists Title, Timer (text and numbers), and time-line.
+* Quiz boxs page header consists Title (on the left side), and Timer box (on the right side).
+
+* This timer starts decrement from 20 to 0 sec.
+
+* There is also shown a timeline indicator that is sliding from left to right according to the timer.
+
+* If the player selects an option between 20 to 0 sec, the timer will be stopped and all available options will be disabled. 
 
 ![quiz-box](documentation/quiz-box-rightAns-image.png)
 
-* Quiz box page middle part consists question and selection of answers
-* By selecting the right answer:
-* By selecting the wrong answer:
+* Quiz box page middle part consists question and selection of answers.
+
+* If the player selected option is correct (right), then selected option color, background color changed to green and there is also shown the tick icon to inform the user that the selected answer is correct.
+
+* If the player doesn't select an option between 20 to 0 sec, the timer will be stopped once it comes in 0 and the correct option of that question will be automatically selected.
 
 ![quiz-box](documentation/quiz-box-wrongAns-image.png)
 
+* If the player selects an option that is incorrect (wrong), the selected option color, background color changed to red and there is shown the cross icon to inform the user that the selected option is incorrect.
+
+* The correct option will be automatically selected and shown.
+
 ![quiz-box](documentation/quiz-box-footer-image.png)
+
+* Left side is question counter and right side is "Next clic" button to show you next question.
+
+* There is a total of five questions on this Quiz.
 
 ![result-box](documentation/result-box.png)
 
-* Result box consists of icon - a trophy, text in the middle, and buttons for replay or quit options 
+* The Result box consists of an icon - a trophy, text to show player score in the middle, and buttons for "Replay" or "Quit" options.
 
+* When a player clicks on the "Replay" button, the quiz will start again with the number 1 question, and the score of the player will be 0.
+
+* When a player clicks on the "Quit" button, the current window will be reloaded and the quiz starts from the beginning.
 
 ## Future Features
 

@@ -212,7 +212,7 @@ body {
 }
 
 section .option_list .option{
-    background: aliceblue;
+    background: (aliceblue);
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
