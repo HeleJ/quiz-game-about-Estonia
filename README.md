@@ -40,6 +40,14 @@ For my second project, I thought I will be an ambassador. I created a short quiz
 
 * My color scheme is inspired by the Estonian flag: Blue ![#007bff](https://via.placeholder.com/15/007bff/000000?text=+), black ![#252525](https://via.placeholder.com/15/252525/000000git?text=+) and white ![#fff](https://via.placeholder.com/15/fff/000000?text=+).
 
+Blue expresses faith and hope for the future of the Estonian people. A symbol of loyalty.
+
+Black is reminiscent of the gloomy and torturous past of the Estonian people, the black soil of their homeland. A symbol of love.
+
+White symbolizes the Estonian people's aspirations for education and spiritual light. Winter white snow, summer white nights, white birch bark of Estonian birches.
+
+
+
 To create colour palette I used [Coolors](https://coolors.co)
 
 Blue colour palette:
@@ -110,7 +118,16 @@ Blue colour palette:
 
 ## Future Features
 
+* My main goal is to open a window for a player who never heard about Estonia, so for that reason, I would remove the timer.
+
+* On other hand, some players like an adrenalin rush, so for that reason was good to give an option "with timer" or "without timer".
+
+* After the Result box, I would make an extra box for links for those players who would like to get more information about subjects that came up in questions. 
+
+* I would like to add background sound effects - as Estonia is covered 50% with forest, so the birds chirping in the forest would be suitable.
+
 # Testing
+
 1. Manual testing
 
 * Checking responsiveness
@@ -133,8 +150,6 @@ I tested that this page works in different browsers: Chrome and Internet Explore
 * [html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia%2F)
 
 
-
-
 ![html-validation-result](documentation/validation-html.png)
 
 * [css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -144,21 +159,44 @@ I tested that this page works in different browsers: Chrome and Internet Explore
 
 * [jshint validator](https://jshint.com/)
 
+
 ![JavaScript-Code-quality-Tool](documentation/js-validation.png)
 
+# Issues and Bugs
 
 
 # Deploiment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-* From the Github repository, navigate to the Setting tab
-* From the source section drop-down menu, select the Master Branch
-* Once the master has been selected, the page provided the link to the completed website.
+
+1. Log into [GitHub](https://github.com) or [create an account](https://github.com).
+2. Locate the [Github Repository](https://github.com/HeleJ/quiz-game-about-Estonia). 
+3. At the top of the repository, select Settings from the menue items.
+4. Scroll down the Settings page to the "GitHub Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+6. Upon selection, the page will  automatically refresh meaning that the website is deployed.
+7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+8. At the time of submitting this Milestone project the Development Branch and Master Branch are indentical.
 
 The live link can be found here - [Quiz about Estonia](https://helej.github.io/quiz-game-about-Estonia)
 
+# Forking the Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes wiwwthout affecting the original repository by using the following steps:
+
+1. Log into [GitHub](https://github.com) or [create an account](https://github.com).
+2. Locate the [Github Repository](https://github.com/HeleJ/quiz-game-about-Estonia). 
+3. At the top of the repository, on the right side of the page, select "Fork".
+4. You should now have a copy of the original repository in your GitHub account.
+
 
 # Credits
+
+* [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopmentecommerce/tutor). 
+
+* I would like to thank this time my two mentors Tim and Seun for their unwavering encouragement and guidance throughout.
+
+* I would like to thank pediatrician dr. Ann-Marie Murphy from Limerick Regional Hospital, who helped my son after a long illness to recovery road. My first project was delayed, and the time to spend on JavaScript studying was rushed because of unseen circumstances. I spent more time in the ambulance and hospital without any hope. Dr.Murphy gave back life quality to my son, and me a chance to study again in this hard but wonderful course.
 
 ## Content
 
@@ -169,6 +207,11 @@ The live link can be found here - [Quiz about Estonia](https://helej.github.io/q
 * II part from [here](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=5s)
 
 The first video instructing how to build up content using HTML and CSS, and the video was a JavaScript tutorial. Codes from both videos have been edited to fit the needs of the Quiz about the Estonia website. I wish I could have written all of the JavaScript code independently, however, I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code as and when I needed to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
+
+The following sites were used on a more regular basis:
+* [Stack Overflow](https://stackoverflow.com) 
+
+* [W3Schools](https://www.w3school.com)
 
 ### Questions and answers in the web quiz were found and worded by myself
 
