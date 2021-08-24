@@ -94,7 +94,7 @@ Blue colour palette:
 
 * The correct option will be automatically selected and shown.
 
-![quiz-box](documentation/quiz-box-footer-image.png)
+![quiz-box](documentation/quiz-box-footer.png)
 
 * Left side is question counter and right side is "Next clic" button to show you next question.
 
@@ -132,12 +132,19 @@ I tested that this page works in different browsers: Chrome and Internet Explore
 
 * [html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia%2F)
 
-* [css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
 
 ![html-validation-result](documentation/validation-html.png)
 
+* [css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 ![css-validation-result](documentation/validation-css.png)
+
+* [jshint validator](https://jshint.com/)
+
+![JavaScript-Code-quality-Tool](documentation/js-validation.png)
 
 
 
