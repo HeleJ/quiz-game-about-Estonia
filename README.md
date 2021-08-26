@@ -15,7 +15,7 @@ This site was created  to get more familiar with common development tools like G
 * HTML5 - Programming language for structuring the site.
 * CSS3- Style sheet programming language.
 * JavaScript - Scripting language that enables to create dynamically updating contect.
-* [Font Awesome](https://fontawesome.com/) -used to provide icons across the site.
+* [Font Awesome](https://fontawesome.com/) -used to provide icon to the result-box.
 * [Google fonts](https://fonts.google.com/) -used to select and provide typography.
 * [Github](https://github.com)- software hosting platform to keep project in a remote location
 * [Gitpod](https://gitpod.io/workspaces) - a development hosting platform
@@ -47,6 +47,29 @@ For my second project, I thought I will be an ambassador. I created a short quiz
 * In the end, is a result box with a score and replay & quit button.
 
 * The quiz is created to inspire, and add curiosity about Estonia.
+
+# UX
+
+## External User goals
+
+As a prospective user, I want to
+
+* View questions and answers about Estonia to get more interest.
+* Be able to see running time.
+* Be able to see running timeline - visual running time.
+* Be able to see right answer even I selected wrong ansver.
+* Be able to see my score for the game.
+* Be able to view the site on mobile/desktop/tablet.
+* Be able to access all pages and navigate without confusion, without too many clicks.
+* Submit questions.
+
+## Site Owner goals
+
+As site owner I want
+
+* To provide a fun, interactive site that is easy to navigate, and can be viewed on different screen sizes.
+* The user to enjoy playing the game.
+* Give some interesting facts and information about Estonia and estonians.
 
 ### Colour scheme
 
