@@ -12,7 +12,19 @@ You can check out the website [here!](https://helej.github.io/quiz-game-about-Es
 This site was created  to get more familiar with common development tools like Gitpod, Git & GitHub, and how to use them to write and manage code. The website content will be created with HTML, the website will be styled with the use of CSS, and its functionality will come from the implementation of JavaScript.The project itself will display a breakdown of the different technologies used in each of the different sections of the program.
 
 ## Technology
-This project was written in HTML, CSS & JavaScript using GitHub.
+* HTML5 - Programming language for structuring the site.
+* CSS3- Style sheet programming language.
+* JavaScript - Scripting language that enables to create dynamically updating contect.
+* [Font Awesome](https://fontawesome.com/) -used to provide icons across the site.
+* [Google fonts](https://fonts.google.com/) -used to select and provide typography.
+* [Github](https://github.com)- software hosting platform to keep project in a remote location
+* [Gitpod](https://gitpod.io/workspaces) - a development hosting platform
+* Git - used for version-control.
+* Chrome Dev Tools - used to view responsiveness and layout as site was being developed. I found this very useful when developing the site, as it aided my learning throughout the project.
+* Validators:
+1. [jshint](https://jshint.com)
+2. [validator.w3.org](https://validator.w3.org)
+3. jigsaw.w3.org/css-validator
 
 # Table of contents
 1. Introduction
@@ -122,7 +134,7 @@ Blue colour palette:
 
 * On other hand, some players like an adrenalin rush, so for that reason was good to give an option "with timer" or "without timer".
 
-* After the Result box, I would make an extra box for links for those players who would like to get more information about subjects that came up in questions. 
+* After the Result box, I would make an "Want to know more" box for links for those players who would like to get more information about subjects that came up in questions. 
 
 * I would like to add background sound effects - as Estonia is covered 50% with forest, so the birds chirping in the forest would be suitable.
 
