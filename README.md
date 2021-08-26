@@ -36,7 +36,7 @@ This site was created to get more familiar with common development tools like Gi
 
    * [validator.w3.org](https://validator.w3.org)
 
-   * jigsaw.w3.org/css-validator
+   * [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator)
 
 * [Am I Responsive?](http://ami.responsivedesign.is/)
 
