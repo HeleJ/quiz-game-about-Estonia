@@ -55,7 +55,7 @@ This site was created to get more familiar with common development tools like Gi
 ##  Introduction
 
 As an Estonian living abroad already for many years, I'm used to seeing confused faces when I tell others I'm Estonian. Most people don't even have the slightest clue where Estonia is? Is that small country even in Europe? 
-For my second project, I thought I would be an ambassador. I created a short quiz game about a small country, far far away. A country that is bigger than Denmark or Switzerland but it's population is only 1,3 million and decreasing.
+For my second project, I thought I would be an ambassador. I created a short quiz game about a small country, far far away. A country that is bigger than Denmark or Switzerland but it's population is only 1.3 million and decreasing.
 
 * After entering the game and reading it's rules you can start the game.
 
@@ -146,7 +146,11 @@ Blue colour palette:
 
 * There is also shown a timeline indicator that is sliding from left to right according to the timer.
 
-* If the player selects an option between 20 to 0 sec, the timer will be stopped and all available options will be disabled. 
+* If the player selects an option between 20 to 0 sec, the timer will be stopped and all available options will be disabled.
+
+![quiz-box-header](documentation/time-off.png)
+
+* If the timer stopped, the text "Time left" will change for "Time off".
 
 ![quiz-box](documentation/quiz-box-rightAns-image.png)
 
@@ -154,7 +158,7 @@ Blue colour palette:
 
 * If the player selected option is correct (right), then selected option color, background color changes to green and there is also shown the tick icon to inform the user that the selected answer is correct.
 
-* If the player doesn't select an option between 20 to 0 sec, the timer will be stopped once it comes in 0 and the correct option of that question will be automatically selected.
+* If the player doesn't select an option between 20 to 0 sec, the timer will be stopped once it comes in 00 and the correct option of that question will be automatically selected.
 
 ![quiz-box](documentation/quiz-box-wrongAns-image.png)
 
@@ -206,7 +210,7 @@ Blue colour palette:
   
   * Continue button. If the continue button is clicked - hide the info box, show the quiz box;
   
-  * Click the Next button. If Click next button clicked - hide current question, show next question. After the last question show the result box;
+  * Click the Next button. If Click next button is clicked - hide current question, show next question. After the last question show the result box;
 
   * Replay button. If the replay button is clicked - hide the result box, show the quiz box.
 
@@ -216,9 +220,27 @@ Blue colour palette:
 
   * Quiz box timer text "Time left" changing for "Time Off" when the 20s are passed?
 
-  * Quiz box timer second counter. Does the counter starts from the 20s and decreasing?
+  * Quiz box timer second counter. Does the counter start from the 20s and decreasing?
 
-  * Quiz box time line. Does the time line runs left to right synchronised with the second counter?
+  * Quiz box time line. Does the time line run left to right while being synchronised with the second counter?
+
+  * Option list correct answer. If the correct answer is selected,the green tick icon shows, and the option box background color changes green.
+
+  * Option list incorrect answer. If the incorrect answer is selected, the red cross icon shows, and the option box background color changes pink. 
+
+    * Right answer shows automatically.
+
+  * Question counter. Does the question counter count correct and incorrect answers separately?
+
+* Result box text. There are three options:
+
+  1. If the user scored less than 1 right asnwer, text shows "and sorry,";
+
+  2. If the user scored less than 3 correct answers, text shows "and nice,";
+
+  3. If the user scored more than 3 correct answer, text shows "and congrats!"
+
+After manual testing, I can confirm that all functions are working.
 
 * Checking responsiveness
 
@@ -256,13 +278,13 @@ I tested that this page works in different browsers: Chrome and Internet Explore
 
 # Issues and Bugs
 
-* Was getting warnings in jshint about ES6. Resolution found to clear these.
+* I was getting warnings in jshint about ES6. Resolution found to clear these.
 
   * jsHint /jshint esversion:6/ added to top of js file, removed warnings.
 
-* Timer and time liner didn't run a sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
+* Timer and time liner didn't run in sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
 
-* Timer didn't start accounting from 20 decreasing straight away, showed at first previous answer time result.
+* Timer didn't start counting from 20 decreasing straight away, showed at first previous answer time result.
 
   * Added timeCount.textContent = time to function startTimer. Solved this issue.
 
@@ -310,11 +332,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 # Credits
 
 * [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopmentecommerce/tutor). 
-  * I would especially like to say thank you to Student Tutor Michael based in South Korea for his exceptional guidance.
+  * I would especially like to say thank you to Michael the student tutor based in South Korea for his exceptional guidance.
 
-* I would like to thank this time my two mentors Tim and Seun for their unwavering encouragement and guidance throughout.
+* I would like to thank my two mentors Tim and Seun for their unwavering encouragement and guidance throughout.
 
-* I would like to thank pediatrician dr. Ann-Marie Murphy from Limerick Regional Hospital, who helped my son after a long illness to recovery road. My first project was delayed, and the time to spend on JavaScript studying was rushed because of unseen circumstances. I spent more time in the ambulance and hospital without any hope. Dr.Murphy gave back life quality to my son, and me a chance to study again in this hard but wonderful course.
+* I would like to thank pediatrician Dr. Ann-Marie Murphy from the Limerick Regional Hospital, who helped my son after a chronic illness onto his road to recovery. My first project was delayed, and my time that was supposed to be spent on JavaScript studying was rushed because of unseen circumstances. I spent more time in the ambulance and hospital without any hope. Dr.Murphy gave my so his life quality back, and gave me a chance to study again in this hard but wonderful course.
+
+* Finally I'd like to thank my son for taking the time to double check my grammar and spelling.
 
 ## Content
 
@@ -325,7 +349,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
   * I part:["Create a Quiz App with Timer using HTML CSS & JavaScript"](https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s) 
   * II part from [here](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=5s)
 
-The first video instructing how to build up content using HTML and CSS, and the video was a JavaScript tutorial. Codes from both videos have been edited to fit the needs of the Quiz about the Estonia website. I wish I could have written all of the JavaScript code independently, however, I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code as and when I needed to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
+The first video was about instructing you on how to build up content using HTML and CSS. The second video was a JavaScript tutorial. The codes from both videos have been edited to fit the needs of the Quiz about the Estonian website. I wish I could have written all of the JavaScript code independently, however, I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code and when I needed to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
 
 The following sites were used on a more regular basis:
 * [Stack Overflow](https://stackoverflow.com) 
