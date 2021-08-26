@@ -15,10 +15,12 @@ const timeCount = document.querySelector(".timer .timer_sec");
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); //show the info box
 };
+
 // if ExitQuiz button clicked
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide the info box
 };
+
 // if continueQuiz button clicked
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide the info box
@@ -28,6 +30,7 @@ continue_btn.onclick = ()=>{
     startTimer(20); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 };
+
 let timeValue = 20;
 let que_count = 0;
 let que_numb = 1;
@@ -57,10 +60,12 @@ restart_quiz.onclick = ()=>{
     timeText.textContent = "Time Left";  
     next_btn.classList.remove("show");  //hide the next button
 };
+
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
     window.location.reload();
 };
+
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
@@ -83,6 +88,7 @@ next_btn.onclick = ()=>{
         showResult();
     }
 };
+
 // getting questions and options from array
 function showQuestions(index){
     const que_text = document.querySelector(".que_text");
@@ -99,6 +105,7 @@ function showQuestions(index){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
+
 // div tags for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
@@ -115,11 +122,8 @@ function optionSelected(answer){
         userScore += 1;
         answer.classList.add("correct");  //adding green color to correct selected option
         answer.insertAdjacentHTML("beforeend", tickIconTag); // adding tick icon
-        console.log("Correct Answer");
-        console.log("Your correct answer = " +userScore);
     }else{  //answer is incorrect
         answer.classList.add("incorrect");  //addng red color to incorrect selected option
-        console.log("Wrong Answer");
         answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cress icon
 
         //if answer is incorrect then automatically selected the correct answer
@@ -127,7 +131,6 @@ function optionSelected(answer){
             if(option_list.children[i].textContent == correctAns) {
                 option_list.children[i].setAttribute("class", "option correct");
                 option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag);
-                console.log("Auto selected correct answer.");
             }
         }
     }
@@ -159,6 +162,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
     }
 }
+
 // timer
 function startTimer(time){
     timeCount.textContent = time;
@@ -191,6 +195,7 @@ function startTimer(time){
         }
     }
 }
+
 // timerLine
 function startTimerLine(time){
     counterLine = setInterval(timer, 200);
@@ -202,6 +207,7 @@ function startTimerLine(time){
         }
     }
 }
+
 // creating a new span tag and passing the question number and total question
 function queCounter(index){
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
