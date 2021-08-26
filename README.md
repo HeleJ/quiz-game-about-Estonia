@@ -225,3 +225,5 @@ The following sites were used on a more regular basis:
 ## Media
 
 * The background image used throughout the website, and used for different screen sizes  was taken from [here](https://pildiait.erm.ee/lipuvarvid-varahommikul/)
+
+This site was developed for Educational purposes

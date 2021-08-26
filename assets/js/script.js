@@ -161,6 +161,7 @@ function showResult(){
 }
 // timer
 function startTimer(time){
+    timeCount.textContent = time;
     counter = setInterval(timer, 1000);
     function timer(){
         timeCount.textContent = time;
