@@ -147,10 +147,10 @@ I tested that this page works in different browsers: Chrome and Internet Explore
 
 ## Validator 
 
-* [html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia%2F)
+* [html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia%2F) No errors
 
 
-![html-validation-result](documentation/validation-html.png)
+![html-validation-result](documentation/validation-html.png) No errors
 
 * [css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhelej.github.io%2Fquiz-game-about-Estonia&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -164,8 +164,20 @@ I tested that this page works in different browsers: Chrome and Internet Explore
 
 # Issues and Bugs
 
+* Was getting warnings in jshint in relation to ES6. Resolution found to clear these.
+* jsHint /jshint esversion:6/ added to top of js file, removed warnings.
 
-# Deploiment
+* Timer and time liner didnt run sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
+
+* Timer didnt start accounting from 20 decreasing stright away, showed at first previus answer time result.
+* Added timeCount.textContent = time to function startTimer. Solved this issue.
+
+* My biggest issue is still grammar mistakes. Need to pay more attention. 
+* [Grammarly](https://grammarly.com) is great help.
+ 
+
+
+# Deploiment 
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
