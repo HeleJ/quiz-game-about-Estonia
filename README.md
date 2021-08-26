@@ -134,9 +134,15 @@ Blue colour palette:
 
 * On other hand, some players like an adrenalin rush, so for that reason was good to give an option "with timer" or "without timer".
 
-* After the Result box, I would make an "Want to know more" box for links for those players who would like to get more information about subjects that came up in questions. 
-
 * I would like to add background sound effects - as Estonia is covered 50% with forest, so the birds chirping in the forest would be suitable.
+
+* Difficulty levels for questions.
+
+* More questions to be added to array.
+
+* Shuffle the answers provided within the question. eg same answer doesn't always appear at position A.
+
+* After the Result box, I would make an "Want to know more" box for links for those players who would like to get more information about subjects that came up in questions. 
 
 # Testing
 
