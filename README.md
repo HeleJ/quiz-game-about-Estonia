@@ -9,22 +9,39 @@ You can check out the website [here!](https://helej.github.io/quiz-game-about-Es
 ![my-page](documentation/my-page-image.png)
 
 ## Project Description
-This site was created  to get more familiar with common development tools like Gitpod, Git & GitHub, and how to use them to write and manage code. The website content will be created with HTML, the website will be styled with the use of CSS, and its functionality will come from the implementation of JavaScript.The project itself will display a breakdown of the different technologies used in each of the different sections of the program.
+This site was created to get more familiar with common development tools like Gitpod, Git & GitHub, and how to use them to write and manage code. The website content will be created with HTML, the website will be styled with the use of CSS, and its functionality will come from the implementation of JavaScript.The project itself will display a breakdown of the different technologies used in each of the different sections of the program.
 
 ## Technology
-* HTML5 - Programming language for structuring the site.
+* HTML5 - A programming language for structuring the site.
+
 * CSS3- Style sheet programming language.
-* JavaScript - Scripting language that enables to create dynamically updating contect.
+
+* JavaScript - A scripting language that enables the creation of dynamically updating content.
+
 * [Font Awesome](https://fontawesome.com/) -used to provide icon to the result-box.
+
 * [Google fonts](https://fonts.google.com/) -used to select and provide typography.
-* [Github](https://github.com)- software hosting platform to keep project in a remote location
+
+* [Github](https://github.com)- software hosting platform to keep the project in a remote location
+
 * [Gitpod](https://gitpod.io/workspaces) - a development hosting platform
-* Git - used for version-control.
-* Chrome Dev Tools - used to view responsiveness and layout as site was being developed. I found this very useful when developing the site, as it aided my learning throughout the project.
+
+* Git - used for version control.
+
+* Chrome Dev Tools - used to view responsiveness and layout as the site was being developed. I found this very useful when developing the site, as it aided my learning throughout the project.
+
 * Validators:
-1. [jshint](https://jshint.com)
-2. [validator.w3.org](https://validator.w3.org)
-3. jigsaw.w3.org/css-validator
+
+   * [jshint](https://jshint.com)
+
+   * [validator.w3.org](https://validator.w3.org)
+
+   * jigsaw.w3.org/css-validator
+
+* [Am I Responsive?](http://ami.responsivedesign.is/)
+
+   * Am I Responsive was used in order to validate the responsiveness of the design throughout the process, and to generate mockup imagery to be used
+
 
 # Table of contents
 1. Introduction
@@ -37,14 +54,14 @@ This site was created  to get more familiar with common development tools like G
 
 ##  Introduction
 
-As an Estonian living abroad already for many years, I'm used to seeing confused faces when I'm telling I'm Estonian.  Most people don't have the slightest clue where Estonia can even be? Is that a small country even in Europe? 
-For my second project, I thought I will be an ambassador. I created a short quiz game about a small country, far far away. Country what is bigger than Denmark or Switzerland but population only 1,3 million and decreasing.
+As an Estonian living abroad already for many years, I'm used to seeing confused faces when I tell others I'm Estonian. Most people don't even have the slightest clue where Estonia is? Is that small country even in Europe? 
+For my second project, I thought I would be an ambassador. I created a short quiz game about a small country, far far away. A country that is bigger than Denmark or Switzerland but it's population is only 1,3 million and decreasing.
 
-* After entering a game and reading rules you can start a game.
+* After entering the game and reading it's rules you can start the game.
 
-* There is a total of 5 five questions and 4 four options answers. After you selected an option, if this option is correct then there appears a green tick icon, and if wrong then you see a red cross. By selecting the wrong answer, you will be shown the right answer. 
+* There is a total of 5 five questions and 4 four options answers for each question. After you selected an option, if the option you chose is correct then a green tick icon will appear, and if wrong then you see a red cross. By selecting the wrong answer, you will be shown the right answer. 
 
-* In the end, is a result box with a score and replay & quit button.
+* In the end, there is a result box with a score, replay & quit button.
 
 * The quiz is created to inspire, and add curiosity about Estonia.
 
@@ -52,24 +69,33 @@ For my second project, I thought I will be an ambassador. I created a short quiz
 
 ## External User goals
 
-As a prospective user, I want to
+As a prospective user, I want to:
 
 * View questions and answers about Estonia to get more interest.
+
 * Be able to see running time.
+
 * Be able to see running timeline - visual running time.
-* Be able to see right answer even I selected wrong ansver.
+
+* Be able to see the right answer even I selected the wrong answer.
+
 * Be able to see my score for the game.
+
 * Be able to view the site on mobile/desktop/tablet.
+
 * Be able to access all pages and navigate without confusion, without too many clicks.
+
 * Submit questions.
 
 ## Site Owner goals
 
-As site owner I want
+As a site owner, I want:
 
 * To provide a fun, interactive site that is easy to navigate, and can be viewed on different screen sizes.
+
 * The user to enjoy playing the game.
-* Give some interesting facts and information about Estonia and estonians.
+
+* Give some interesting facts and information about Estonia and Estonians.
 
 ### Colour scheme
 
@@ -80,7 +106,6 @@ Blue expresses faith and hope for the future of the Estonian people. A symbol of
 Black is reminiscent of the gloomy and torturous past of the Estonian people, the black soil of their homeland. A symbol of love.
 
 White symbolizes the Estonian people's aspirations for education and spiritual light. Winter white snow, summer white nights, white birch bark of Estonian birches.
-
 
 
 To create colour palette I used [Coolors](https://coolors.co)
@@ -100,19 +125,19 @@ Blue colour palette:
 
 ![start-quiz](documentation/startQuiz.png)
 
-* Start page consists of a background image and button labeled "Start Quiz".
+* The start page consists of a background image and button labeled "Start Quiz".
 
 * The background image is inspired by the Estonian flag. ( A picture says more than a thousand words.) 
 
-* After selecting "Start Quiz" button, the info box appears with popup animation.
+* After selecting the "Start Quiz" button, the info box appears with popup animation.
 
 ![info-box](documentation/infobox-image.png)
 
-* Infobox page consists of Title, List of rules, and two buttons "Exit Quiz" and "Continue".
+* The infobox page consists of the Title, the list of rules, and two buttons. "Exit Quiz" and "Continue".
 
-* When you clicked on the " Exit Quiz" button, the Info box will be hidden.
+* When you click on the "Exit Quiz" button, the Info box will be hidden.
 
-* When you clicked on the "Continue" button, then the Quiz box appears
+* When you click on the "Continue" button, then the Quiz box appears
 
 ![quiz-box-header](documentation/quiz-box-header.png)
 * Quiz boxs page header consists Title (on the left side), and Timer box (on the right side).
@@ -125,21 +150,21 @@ Blue colour palette:
 
 ![quiz-box](documentation/quiz-box-rightAns-image.png)
 
-* Quiz box page middle part consists question and selection of answers.
+* Quiz box page middle part consists of a question and selection of answers.
 
-* If the player selected option is correct (right), then selected option color, background color changed to green and there is also shown the tick icon to inform the user that the selected answer is correct.
+* If the player selected option is correct (right), then selected option color, background color changes to green and there is also shown the tick icon to inform the user that the selected answer is correct.
 
 * If the player doesn't select an option between 20 to 0 sec, the timer will be stopped once it comes in 0 and the correct option of that question will be automatically selected.
 
 ![quiz-box](documentation/quiz-box-wrongAns-image.png)
 
-* If the player selects an option that is incorrect (wrong), the selected option color, background color changed to red and there is shown the cross icon to inform the user that the selected option is incorrect.
+* If the player selects an incorrect option (wrong), the selected option color, background color changes to red and there is shown the cross icon to inform the user that the selected option is incorrect.
 
 * The correct option will be automatically selected and shown.
 
 ![quiz-box](documentation/quiz-box-footer.png)
 
-* Left side is question counter and right side is "Next clic" button to show you next question.
+* Left side is the question counter and the right side is the "Next click" button to show you the next question.
 
 * There is a total of five questions on this Quiz.
 
@@ -155,21 +180,43 @@ Blue colour palette:
 
 * My main goal is to open a window for a player who never heard about Estonia, so for that reason, I would remove the timer.
 
-* On other hand, some players like an adrenalin rush, so for that reason was good to give an option "with timer" or "without timer".
+* On the other hand, some players like an adrenalin rush, so for that reason was good to give an option "with timer" or "without timer".
 
 * I would like to add background sound effects - as Estonia is covered 50% with forest, so the birds chirping in the forest would be suitable.
 
 * Difficulty levels for questions.
 
-* More questions to be added to array.
+* More questions to be added to the array.
 
 * Shuffle the answers provided within the question. eg same answer doesn't always appear at position A.
 
-* After the Result box, I would make an "Want to know more" box for links for those players who would like to get more information about subjects that came up in questions. 
+* After the Result box, I would make a "Want to know more" box for links for those players who would like to get more information about subjects that came up in questions. 
 
 # Testing
 
 1. Manual testing
+
+* Manual testing was conducted on the following elements:
+
+* Buttons
+
+  * Start Quiz button. If the start quiz button is clicked - show the info box; 
+
+  * Exit Quiz button. If the exit quiz button is clicked - hide the info box, show the start quiz button;
+  
+  * Continue button. If the continue button is clicked - hide the info box, show the quiz box;
+  
+  * Click the Next button. If Click next button clicked - hide current question, show next question. After the last question show the result box;
+
+  * Replay button. If the replay button is clicked - hide the result box, show the quiz box.
+
+  * Quit button. If the quit button is clicked - hide the result box, show the start quiz button.
+
+* Quiz box timer text "Time left" changing for "Time Off" when the 20s are passed?
+
+* Quiz box timer second counter. Does the counter starts from the 20s and decreasing?
+
+* Quiz box time line. Does the time line runs left to right synchronised with the second counter?
 
 * Checking responsiveness
 
@@ -180,7 +227,9 @@ I confirmed that this project is responsive, looks good on functions on all stan
 I tested that this page works in different browsers: Chrome and Internet Explorer
 
 2. Automated testing
-* Code validation
+
+* Code testing. This game has been played from different browsers and also different devices. Works well and reacts to different devices. No issues found.
+
 * Lighthouse auditing
 
 ![accessibility](documentation/accessibility.png)
@@ -205,47 +254,61 @@ I tested that this page works in different browsers: Chrome and Internet Explore
 
 # Issues and Bugs
 
-* Was getting warnings in jshint in relation to ES6. Resolution found to clear these.
-* jsHint /jshint esversion:6/ added to top of js file, removed warnings.
+* Was getting warnings in jshint about ES6. Resolution found to clear these.
 
-* Timer and time liner didnt run sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
+  * jsHint /jshint esversion:6/ added to top of js file, removed warnings.
 
-* Timer didnt start accounting from 20 decreasing stright away, showed at first previus answer time result.
-* Added timeCount.textContent = time to function startTimer. Solved this issue.
+* Timer and time liner didn't run a sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
+
+* Timer didn't start accounting from 20 decreasing straight away, showed at first previous answer time result.
+
+  * Added timeCount.textContent = time to function startTimer. Solved this issue.
 
 * My biggest issue is still grammar mistakes. Need to pay more attention. 
-* [Grammarly](https://grammarly.com) is great help.
+
+  * [Grammarly](https://grammarly.com) is great help.
  
 
 
-# Deploiment 
+# Deployment 
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 1. Log into [GitHub](https://github.com) or [create an account](https://github.com).
+
 2. Locate the [Github Repository](https://github.com/HeleJ/quiz-game-about-Estonia). 
-3. At the top of the repository, select Settings from the menue items.
+
+3. At the top of the repository, select Settings from the menu items.
+
 4. Scroll down the Settings page to the "GitHub Pages" section.
-5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
-6. Upon selection, the page will  automatically refresh meaning that the website is deployed.
+
+5. Under "Source" click the drop-down menu labeled "None" and select "Master Branch".
+
+6. Upon selection, the page will automatically refresh meaning that the website is deployed.
+
 7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
-8. At the time of submitting this Milestone project the Development Branch and Master Branch are indentical.
+
+8. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
 
 The live link can be found here - [Quiz about Estonia](https://helej.github.io/quiz-game-about-Estonia)
 
 # Forking the Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes wiwwthout affecting the original repository by using the following steps:
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
 1. Log into [GitHub](https://github.com) or [create an account](https://github.com).
+
 2. Locate the [Github Repository](https://github.com/HeleJ/quiz-game-about-Estonia). 
+
 3. At the top of the repository, on the right side of the page, select "Fork".
+
 4. You should now have a copy of the original repository in your GitHub account.
 
 
 # Credits
 
 * [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopmentecommerce/tutor). 
+  * I would especially like to say thank you to Student Tutor Michael based in South Korea for his exceptional guidance.
 
 * I would like to thank this time my two mentors Tim and Seun for their unwavering encouragement and guidance throughout.
 
@@ -256,8 +319,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ### Code
 
 * The code to make my second project was taken from Youtube 
-* I part:["Create a Quiz App with Timer using HTML CSS & JavaScript"](https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s) 
-* II part from [here](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=5s)
+
+  * I part:["Create a Quiz App with Timer using HTML CSS & JavaScript"](https://www.youtube.com/watch?v=pQr4O1OITJo&t=1324s) 
+  * II part from [here](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=5s)
 
 The first video instructing how to build up content using HTML and CSS, and the video was a JavaScript tutorial. Codes from both videos have been edited to fit the needs of the Quiz about the Estonia website. I wish I could have written all of the JavaScript code independently, however, I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code as and when I needed to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
 
@@ -277,6 +341,6 @@ The following sites were used on a more regular basis:
 
 ## Media
 
-* The background image used throughout the website, and used for different screen sizes  was taken from [here](https://pildiait.erm.ee/lipuvarvid-varahommikul/)
+* The background image used throughout the website, and used for different screen sizes were taken from [here](https://pildiait.erm.ee/lipuvarvid-varahommikul/)
 
 This site was developed for Educational purposes
