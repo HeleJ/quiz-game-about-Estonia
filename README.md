@@ -212,11 +212,13 @@ Blue colour palette:
 
   * Quit button. If the quit button is clicked - hide the result box, show the start quiz button.
 
-* Quiz box timer text "Time left" changing for "Time Off" when the 20s are passed?
+* Quiz Box  
 
-* Quiz box timer second counter. Does the counter starts from the 20s and decreasing?
+  * Quiz box timer text "Time left" changing for "Time Off" when the 20s are passed?
 
-* Quiz box time line. Does the time line runs left to right synchronised with the second counter?
+  * Quiz box timer second counter. Does the counter starts from the 20s and decreasing?
+
+  * Quiz box time line. Does the time line runs left to right synchronised with the second counter?
 
 * Checking responsiveness
 
